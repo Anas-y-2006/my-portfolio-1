@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="flex justify-between items-center p-8 lg:px-12 relative z-20">
-      <div class="text-3xl font-bold dark:text-white">LOGO</div>
+      <div class="text-4xl font-logo font-bold dark:text-white">ANAS</div>
 
       <!-- Mobile Toggle Button -->
       <div class="md:hidden z-30">
@@ -85,6 +85,16 @@ const scrollToSection = (href) => {
 // Reactive property to track dark mode
 const isDarkMode = ref(localStorage.getItem("theme") === "dark");
 
+/*************  ✨ Windsurf Command ⭐  *************/
+/**
+ * Toggle dark mode on/off.
+ *
+ * This function will remove/add the "dark" class from the root element,
+ * depending on the current state of the `isDarkMode` reactive property.
+ * It will also update the `isDarkMode` property to match the new state.
+ * The theme is stored in localStorage so that it persists across page reloads.
+ */
+/*******  3221c716-1f2c-4776-b838-325fe1350ed5  *******/
 const toggleDarkMode = () => {
   const html = document.documentElement;
   if (isDarkMode.value) {

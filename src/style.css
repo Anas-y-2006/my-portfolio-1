@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Rough:wght@600&display=swap'); /* <-- هنا التغيير */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+

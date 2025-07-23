@@ -12,6 +12,7 @@ module.exports = {
     },
     fontFamily: {
       sans: ["Poppins", "sans-serif"],
+      logo: ["'Winky Rough'", "cursive"],
     },
   },
   plugins: [
